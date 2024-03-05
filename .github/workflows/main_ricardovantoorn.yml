@@ -70,6 +70,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'ricardovantoorn'
-          slot-name: 'Production'
           package: .
           
