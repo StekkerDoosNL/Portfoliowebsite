@@ -61,6 +61,5 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'ricardovt'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BD4B6CE0CB0645B7B70D4D261A60E270 }}
           package: .
